@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PROFILE</title>
+        <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file (optional) -->
+       
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+                <h1>Marc Rainier Buitizon</h1>
+                    <h4>Profile Info</h4>
+            </div>
+        </header>
+
+         <!--Home-->
+        <div class="container" id="homecontainer" style="display:block">
+            <h1 class="form-title">Choose A Command</h1>
+    
+            <form class="btns-prof" name="homeForm">
+                <button id="aboutbutton">ABOUT</button>
+                <button id="skillbutton">SKILLS</button>
+                <button id="contactbutton">CONTACT</button>
+            </form>
+
+
+        </div>
+
+
+        <!--About-->
+        <div class="container" id="aboutcontainer" style="display:none">
+            <h1 class="form-title">ABOUT</h1>
+    
+        <div name="aboutForm">
+           <p>My name is Marc Rainier Buitizon. I’m passionate about technology, design, and self-improvement. Whether it’s working on web design projects, exploring creative ways to express emotions, or building efficient solutions, I strive to constantly evolve in my personal and professional life. I enjoy finding ways to enhance user experiences and make designs both functional and visually appealing. In addition, I have a keen interest in balancing productivity with aesthetics, whether it’s through coding or daily tasks.</p>
+
+           <button class="back-to-home">Back to Home</button>
+
+        </div>
+            
+        </div>
+
+
+
+         <!--Skills-->
+         <div class="container" id="skillcontainer" style="display:none">
+            <h1 class="form-title">SKILLS</h1>
+            
+            <li>JAVA</li>
+            <li>HTML</li>
+            <li>CREATIVE</li>
+            <li>FRONT-END</li>
+           
+
+            <button class="back-to-home">Back to Home</button>
+        </div>
+
+        <!--Contact-->
+        <div class="container" id="contactcontainer" style="display:none">
+            <h1 class="form-title">CONTACT</h1>
+    
+            <form class="contact-text">
+               <input type="text" placeholder="Name" required>
+               <input type="email" placeholder="Email" required>
+               <input type="text" placeholder="Message" required>
+               <button onclick="myFunction()">SUBMIT</button>
+            </form>
+            <button class="back-to-home">Back to Home</button>
+            
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
+    

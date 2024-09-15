@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://i.sstatic.net/5uvJN.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header { 
+    text-align: center;
+    background-color: rgb(255, 231, 180);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+    transition: background-color 0.3s ease;
+}
+
+.header:hover {
+    background-color: rgb(255, 200, 140);
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(255, 231, 180);
+    width: 80%;
+    max-width: 700px;
+    padding: 1rem;
+    margin: 30px auto;
+    border: 0.1px solid;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+}
+
+button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover, button:focus {
+    background-color: #3700b3;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+button:active {
+    background-color: #bb86fc;
+    transform: scale(1);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-text input {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-text input:hover {
+    border-color: #6200ea;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-text input:focus {
+    border-color: #6200ea;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.contact-text button {
+    width: 60%;
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #03dac5;
+    color: white;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-text button:hover {
+    background-color: #018786;
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container.contact-container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.container.contact-container:hover {
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
